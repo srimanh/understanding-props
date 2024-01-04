@@ -1,0 +1,18 @@
+/* add your styles here */
+*{
+    overflow-x: hidden;
+}
+h1 {
+    text-align: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    margin: 40px;
+    padding: 20px;
+  }
+  img {
+    width: 700px;
+    height: auto;
+  }
